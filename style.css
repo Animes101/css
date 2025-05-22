@@ -4,3 +4,42 @@ h1{
     text-decoration: underline;
     text-shadow: 2px 2px orange;
 }
+.css-style h2{
+    color:green;
+    background-color: rgb(211, 158, 158);
+    padding:5px;
+    text-transform: uppercase;
+    box-shadow: 2px 3px black;
+    
+}
+.css-style h2:hover{
+    color:red;
+    cursor: pointer;
+    text-shadow: 3px 3px black;
+}
+
+.selector > p{
+    color: gold;
+    background-color: black;
+    padding:10px;
+    border-radius: 10px;
+    font-size:40px;
+}
+.selector ~ h4 {
+    color:blue;
+
+}
+.selector + h4{
+    color:red;
+    
+}
+.align{
+    border:2px solid black;
+    padding:5px;
+
+}
+.align p{
+    border:1px dashed red;
+    padding:10px;
+    text-align: center;
+}
